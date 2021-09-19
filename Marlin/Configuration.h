@@ -120,9 +120,9 @@
         #elif !defined(LK1_Pro) && defined(LK4_Pro) && !defined(LK5_Pro)
         #elif !defined(LK1_Pro) && !defined(LK4_Pro) && defined(LK5_Pro)
         #elif !defined(LK1_Pro) && !defined(LK4_Pro) && !defined(LK5_Pro)
-          #error "Not define any one printer model"
+          #error "No printer model defined"
         #else
-          #error "Defined mutiple printer model at the same time"
+          #error "Multiple printer models defined"
         #endif
 
 				#ifdef LK1_Pro
