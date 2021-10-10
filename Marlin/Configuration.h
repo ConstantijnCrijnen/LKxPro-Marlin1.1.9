@@ -110,10 +110,10 @@
 		#ifdef LGT_MAC
 			
         // uncomment or comment LKx_Pro definition to change model
-        // NOTE: shold only define one single model in the meantime
+        // NOTE: should only define one single model in the meantime
 			  // #define LK1_Pro
-        #define LK4_Pro
-        // #define LK5_Pro
+        // #define LK4_Pro
+        #define LK5_Pro
 
         // validation model definition
         #if defined(LK1_Pro) && !defined(LK4_Pro) && !defined(LK5_Pro)
